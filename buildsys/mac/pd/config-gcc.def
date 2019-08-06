@@ -1,6 +1,10 @@
 # where is the PD installation including source code?
 # (this should point to the main folder, which has a "src" (PD Vanilla) or "include" (PD extended) subfolder)
+ifdef FLEXT_PD_APP
+PDPATH=$(FLEXT_PD_APP)/Contents/Resources
+else
 PDPATH=/Applications/Pd-0.42-5.app/Contents/Resources
+endif
 
 # where is the PD executable?
 PDBIN=$(PDPATH)/bin/pd
