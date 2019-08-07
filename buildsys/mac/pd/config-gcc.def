@@ -24,7 +24,11 @@ FLEXTPREFIX=/usr/local
 OUTPATH=pd-darwin
 
 # where should the external be installed?
+ifdef FLEXT_INSTALL_PATH
+INSTPATH=$(FLEXT_INSTALL_PATH)
+else
 INSTPATH=$(PDPATH)/extra
+endif
 
 ###############################################################
 
