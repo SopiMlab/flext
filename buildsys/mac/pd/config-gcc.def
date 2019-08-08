@@ -85,7 +85,7 @@ OFLAGS_x86_64 +=
 DFLAGS_x86_64 +=
 
 # cross-compilation (optional)
-ARCH=i386 x86_64 # ppc ppc64
+ARCH=x86_64 # ppc ppc64
 
 # SDK for 10.6
 #OSXSDK=/Developer/SDKs/MacOSX10.6u.sdk
