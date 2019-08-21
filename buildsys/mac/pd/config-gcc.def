@@ -60,10 +60,10 @@ endif
 MFLAGS=-j 2
 
 # user defined compiler flags
-UFLAGS += -ffast-math -mmacosx-version-min=10.6 # -march=native
+UFLAGS += -ffast-math -mmacosx-version-min=10.7 -stdlib=libc++ # -march=native
 
 # user defined linker flags
-LDFLAGS += -mmacosx-version-min=10.6
+LDFLAGS += -mmacosx-version-min=10.7 -stdlib=libc++
 
 # user defined optimization flags
 OFLAGS += -O3 -mtune=native
