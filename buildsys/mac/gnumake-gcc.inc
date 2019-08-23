@@ -76,6 +76,12 @@ INCPATH += -I$(ATOMIC_OPS)/src
 DEFS += -DUSE_ATOMIC_OPS
 endif
 
+ifdef FLEXT_NOATTREDIT
+ifneq (FLEXT_NOATTREDIT,0)
+DEFS += -DFLEXT_NOATTREDIT
+endif
+endif
+
 ##############################################
 
 LDFLAGS += $(patsubst %,-arch %,$(ARCH))

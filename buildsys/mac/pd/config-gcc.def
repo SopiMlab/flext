@@ -16,7 +16,9 @@ PDBIN=$(PDPATH)/bin/pd
 # libraries are in $(FLEXTPREFIX)/lib
 # build system is in $(FLEXTPREFIX)/lib/flext
 
+ifndef FLEXTPREFIX
 FLEXTPREFIX=/usr/local
+endif
 
 ###############################################################
 
