@@ -36,7 +36,10 @@ WARRANTIES, see the file, "license.txt," in this distribution.
 	#if FLEXT_THREADS == FLEXT_THR_POSIX
 		extern "C" {
 			#include <pthread.h>
+			#if 0
+			// when is this needed? building on win10/pd/mingw fails with this, succeeds without
 			#include <sched.h>
+			#endif
 		}
 	#elif FLEXT_THREADS == FLEXT_THR_MP
 		#include <multiprocessing.h>
