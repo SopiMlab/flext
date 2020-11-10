@@ -9,7 +9,9 @@ PDPATH=/usr/local/src/pd
 # libraries are in $(FLEXTPREFIX)/lib
 # build system is in $(FLEXTPREFIX)/lib/flext
 
+ifndef FLEXTPREFIX
 FLEXTPREFIX=/usr/local
+endif
 
 ###############################################################
 
@@ -17,7 +19,11 @@ FLEXTPREFIX=/usr/local
 OUTPATH=pd-linux
 
 # where should the external be installed?
+ifdef FLEXT_INSTALL_PATH
+INSTPATH=$(FLEXT_INSTALL_PATH)
+else
 INSTPATH=/usr/local/lib/pd/extra
+endif
 
 ###############################################################
 
