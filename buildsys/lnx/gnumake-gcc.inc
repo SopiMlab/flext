@@ -1,7 +1,7 @@
 ##############################################
 
-CFLAGS += -I/usr/include/pd
-LDFLAGS += -L/usr/lib
+CFLAGS += -I$(PDINC)
+LDFLAGS += -L$(PDLIB)
 
 ##############################################
 

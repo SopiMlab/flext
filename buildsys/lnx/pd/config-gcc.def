@@ -1,6 +1,16 @@
 # where is the PD source package?
 # (this should point to the main folder, which has a "src" (PD Vanilla) or "include" (PD extended) subfolder)
+ifndef PDPATH
 PDPATH=/usr/local/src/pd
+endif
+
+ifndef PDINC
+PDINC=/usr/include/pd
+endif
+
+ifndef PDLIB
+PDLIB=/usr/lib
+endif
 
 ###############################################################
 
