@@ -1,6 +1,7 @@
 flext - C++ layer for Max/MSP and Pd (Pure Data) externals
 
 This fork by SOPI research group (https://sopi.aalto.fi) mainly adds the ability to pass some options as environment variables.
+
 It was developed for use with GANSpaceSynth (https://github.com/SopiMlab/GANSpaceSynth), our Deep Learning with Audio course (https://github.com/SopiMlab/DeepLearningWithAudio) and our fork of py/pyext (https://github.com/SopiMlab/py).
 
 See also the original repository: https://github.com/grrrr/flext
