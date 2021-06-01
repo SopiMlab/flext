@@ -1,14 +1,16 @@
 flext - C++ layer for Max/MSP and Pd (Pure Data) externals
 
+This fork by SOPI research group (https://sopi.aalto.fi) mainly adds the ability to pass some options as environment variables.
+It was developed for use with our fork of py/pyext (https://github.com/SopiMlab/py).
+
+See also the original repository: https://github.com/grrrr/flext
+
 Copyright (c) 2001-2015 Thomas Grill (gr@grrrr.org)
 For information on usage and redistribution, and for a DISCLAIMER OF ALL
 WARRANTIES, see the file, "license.txt," in this distribution.
 
 This package seeks to encourage the development of open source software
 for the pd and Max/MSP platforms.
-
-Donations for further development of the package are highly appreciated.
-https://www.paypal.com/xclick/business=gr%40grrrr.org&item_name=flext&no_note=1&tax=0&currency_code=EUR
 
 ----------------------------------------------------------------------------
 
